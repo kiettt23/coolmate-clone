@@ -44,6 +44,23 @@ Mở `site/index.html` trong browser — 5 trang navigate qua lại, offline 100
 | Chi tiết sản phẩm | `site/product.html` | coolmate.me/ao-thun-chay-bo-viet-nam-tien-buoc |
 | Giỏ hàng | `site/cart.html` | coolmate.me/cart |
 
-## Đề xuất cải thiện
+## Thay đổi so với web gốc
 
-Xem `git diff` giữa commit "original" và "improved" để thấy thay đổi màu sắc.
+### Cart (`cart.html`)
+- Thêm step indicator (Giỏ hàng → Thanh toán → Hoàn tất)
+- Ẩn form checkout, thêm nút "Tiến hành thanh toán"
+- Thêm cross-sell "Mua kèm giảm thêm 15%"
+- Thêm trust badges (Đổi trả 60 ngày / Freeship / Thanh toán bảo mật)
+- Ẩn tab COD + Voucher thừa, giới hạn cart max-width
+
+### Category (`category.html`)
+- Thêm wishlist heart icon cạnh tên sản phẩm
+
+### Navbar (tất cả 5 trang)
+- Thêm mega dropdown hover cho Nam, Nữ, Thể Thao, Phụ Kiện, Sale
+- Thêm icon wishlist + search (kính lúp khi responsive)
+- Di chuyển icon đăng nhập sang phải cart
+- Fix responsive: nav links hiển thị mọi kích thước, logo thu nhỏ, badge -50% không chồng chữ
+
+### Floating button (4 trang, trừ cart)
+- Redesign: circle xanh Coolmate (#2F5ACF), icon chat minimalist

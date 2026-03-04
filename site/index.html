@@ -4771,8 +4771,8 @@ sentinel { }
     flex-wrap: wrap;
   }
   /* Show on li hover */
-  nav[aria-label="Thanh điều hướng chính"] li:hover > .mega-dropdown {
-    display: flex;
+  li[role="menuitem"]:hover > .mega-dropdown {
+    display: flex !important;
   }
   /* Column */
   .mega-col { min-width: 160px; }
