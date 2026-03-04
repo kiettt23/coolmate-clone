@@ -9,7 +9,7 @@ Clone tĩnh coolmate.me — phục vụ phân tích và cải thiện hệ thố
 │   ├── index.html           # Trang chủ
 │   ├── category.html        # Danh mục /nam
 │   ├── product.html         # Chi tiết sản phẩm (có giá sale)
-│   ├── cart.html             # Giỏ hàng + checkout
+│   ├── cart.html            # Giỏ hàng + checkout
 │   └── assets/
 │       ├── css/
 │       ├── fonts/
