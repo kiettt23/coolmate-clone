@@ -1,4 +1,4 @@
-# Coolmate Clone
+# coolmate-clone
 
 Clone tĩnh coolmate.me — phục vụ phân tích và cải thiện hệ thống màu.
 
@@ -32,3 +32,7 @@ Clone tĩnh coolmate.me — phục vụ phân tích và cải thiện hệ thố
 ## Cách xem
 
 Mở `site/index.html` trong browser — 4 trang navigate qua lại, offline 100%.
+
+## Đề xuất cải thiện
+
+Xem `git diff` giữa commit "original" và "improved" để thấy thay đổi màu sắc.
