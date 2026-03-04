@@ -1,6 +1,6 @@
 # coolmate-clone
 
-Clone tĩnh coolmate.me — phục vụ phân tích và cải thiện hệ thống màu.
+Clone tĩnh coolmate.me — Phục vụ phân tích và cải thiện UI/UX.
 
 ## Cấu trúc
 
