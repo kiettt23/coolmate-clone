@@ -4801,11 +4801,11 @@ sentinel { }
 </style>
 
 <style id="mega-menu">
-  /* Mega dropdown container */
+  /* Mega dropdown — fixed below header */
   .mega-dropdown {
     display: none;
-    position: absolute;
-    top: 100%;
+    position: fixed;
+    top: 100px;
     left: 0;
     right: 0;
     width: 100vw;
@@ -4813,20 +4813,13 @@ sentinel { }
     border-top: 1px solid #f0f0f0;
     box-shadow: 0 4px 12px rgba(0,0,0,0.06);
     padding: 28px 48px;
-    z-index: 100;
+    z-index: 200;
     gap: 32px;
     flex-wrap: wrap;
   }
-  /* Show on hover */
-  nav[aria-label="Thanh điều hướng chính"] ul > li:hover > .mega-dropdown {
+  /* Show on li hover */
+  nav[aria-label="Thanh điều hướng chính"] li:hover > .mega-dropdown {
     display: flex;
-  }
-  /* Position the li relatively for dropdown */
-  nav[aria-label="Thanh điều hướng chính"] ul > li {
-    position: static;
-  }
-  nav[aria-label="Thanh điều hướng chính"] ul[role="menu"] {
-    position: relative;
   }
   /* Column */
   .mega-col { min-width: 160px; }
