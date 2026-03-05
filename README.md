@@ -60,10 +60,9 @@ Mở `site/index.html` trong browser — 5 trang navigate qua lại, offline 100
 
 ### Navbar (tất cả 5 trang)
 
-- Thêm mega dropdown hover cho Nam, Nữ, Thể Thao, Phụ Kiện, Sale (có Lucide icon)
+- Thêm icon cho các title hover
 - Thêm icon wishlist + search (kính lúp khi responsive)
-- Di chuyển icon đăng nhập sang phải cart
-- Fix responsive: nav links hiển thị mọi kích thước, logo thu nhỏ, badge -50% không chồng chữ
+- Fix responsive: nav links hiển thị mọi kích thước, logo thu nhỏ
 
 ### Floating button (4 trang, trừ cart)
 
